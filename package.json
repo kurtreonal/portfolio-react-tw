@@ -9,8 +9,10 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "cross-env VITE_APP_HOSTING=ghpages vite build && gh-pages -d dist"
+    "build:gh": "cross-env VITE_APP_HOSTING=ghpages vite build",
+    "predeploy": "npm run build:gh",
+    "deploy": "gh-pages -d dist",
+    "deploy:all": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
