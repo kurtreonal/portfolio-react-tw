@@ -51,7 +51,7 @@ export default function Hero({ darkMode }) {
               transition={{ duration: 1, delay: 0.6 }}
               viewport={{ once: true }}
             >
-              <a href="#contact">
+              <a href="#projects">
               <button className={`px-6 py-3 rounded-lg font-medium transition-all ${
                 theme
                   ? 'bg-linear-to-r from-cyan-400 to-pink-500 hover:shadow-lg hover:shadow-cyan-500/30'
