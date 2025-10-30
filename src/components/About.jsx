@@ -85,7 +85,7 @@ const About = ({ darkMode }) => {
             >
               <img
                 className="w-12 h-12 rounded-full md:hidden"
-                src="https://randomuser.me/api/portraits/men/68.jpg"
+                src={icon}
                 alt="Profile Mobile"
               />
               <span className={`font-bold text-lg ${
